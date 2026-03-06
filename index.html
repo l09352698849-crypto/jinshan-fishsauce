@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>金山魚露小棧 — 新北金山傳統手工魚露</title>
+  <meta name="description" content="新北金山魚露小棧，堅守百年傳統工藝，以新鮮漁港直送魚貨手工釀造。金山在地特產，純天然無添加魚露，送禮自用兩相宜。" />
+  <meta name="keywords" content="金山魚露,新北魚露,金山特產,手工魚露,傳統魚露,金山漁港,新北伴手禮" />
+  <meta name="author" content="金山魚露小棧" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://jinshan-fishsauce.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="金山魚露小棧 — 新北金山傳統手工魚露" />
+  <meta property="og:description" content="堅守百年傳統工藝，以新鮮漁港直送魚貨手工釀造。金山在地特產，純天然無添加魚露。" />
+  <meta property="og:url" content="https://jinshan-fishsauce.com" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "金山魚露小棧",
+    "description": "新北金山傳統手工魚露，百年工藝，純天然無添加",
+    "url": "https://jinshan-fishsauce.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "金山區金山老街",
+      "addressLocality": "新北市",
+      "addressRegion": "台灣",
+      "postalCode": "208",
+      "addressCountry": "TW"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 25.2256,
+      "longitude": 121.6385
+    },
+    "openingHours": "Mo-Su 09:00-18:00"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,700;1,400&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --amber:#C8860A;--amber-lt:#E8A830;--amber-dk:#8B5E00;
+      --cream:#FAF3E0;--cream-dk:#EDE3C8;--ocean:#1B4D6E;
+      --ink:#1A1008;--bark:#5C3D1E;--mist:#F5EDD8;--red:#B83232;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:'Noto Sans TC',sans-serif;background:var(--cream);color:var(--ink);overflow-x:hidden}
+    ::-webkit-scrollbar{width:6px}
+    ::-webkit-scrollbar-track{background:var(--cream-dk)}
+    ::-webkit-scrollbar-thumb{background:var(--amber);border-radius:3px}
+    nav{position:fixed;top:0;left:0;right:0;z-index:900;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;height:64px;background:rgba(26,16,8,0.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(200,134,10,0.3)}
+    .nav-logo{font-family:'Noto Serif TC',serif;font-weight:900;font-size:1.25rem;color:var(--amber-lt);letter-spacing:0.08em;text-decoration:none}
+    .nav-links{display:flex;gap:2rem;list-style:none}
+    .nav-links a{color:var(--cream-dk);text-decoration:none;font-size:0.88rem;transition:color 0.2s}
+    .nav-links a:hover{color:var(--amber-lt)}
+    .nav-admin-btn{background:none;border:1px solid rgba(200,134,10,0.5);color:var(--amber);padding:5px 14px;border-radius:4px;font-size:0.78rem;cursor:pointer;transition:all 0.2s;font-family:inherit}
+    .nav-admin-btn:hover{background:var(--amber);color:var(--ink)}
+    #hero{min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:var(--ink)}
+    .hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 60% 40%,rgba(200,134,10,0.18) 0%,transparent 70%),radial-gradient(ellipse 50% 50% at 20% 80%,rgba(27,77,110,0.3) 0%,transparent 60%),linear-gradient(160deg,#0d0a05 0%,#1a1008 40%,#0e1a25 100%)}
+    .hero-wave{position:absolute;bottom:-2px;left:0;right:0}
+    .hero-content{position:relative;z-index:2;text-align:center;padding:0 2rem;animation:fadeUp 1.2s ease both}
+    .hero-eyebrow{font-family:'Noto Serif TC',serif;font-size:0.85rem;letter-spacing:0.35em;color:var(--amber);margin-bottom:1.5rem}
+    .hero-title{font-family:'Noto Serif TC',serif;font-size:clamp(3rem,8vw,6.5rem);font-weight:900;color:var(--cream);line-height:1.05;letter-spacing:0.06em;margin-bottom:0.5rem}
+    .hero-title span{color:var(--amber-lt)}
+    .hero-subtitle{font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(1rem,2.5vw,1.4rem);color:rgba(250,243,224,0.55);margin-bottom:2.5rem}
+    .hero-divider{width:60px;height:2px;background:linear-gradient(90deg,transparent,var(--amber),transparent);margin:0 auto 2.5rem}
+    .hero-tagline{font-size:1rem;color:rgba(250,243,224,0.75);line-height:1.9;max-width:480px;margin:0 auto 3rem;font-weight:300}
+    .hero-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+    .btn-primary{background:var(--amber);color:var(--ink);padding:14px 36px;border-radius:4px;font-family:'Noto Serif TC',serif;font-weight:700;font-size:1rem;letter-spacing:0.1em;text-decoration:none;transition:all 0.25s;border:none;cursor:pointer}
+    .btn-primary:hover{background:var(--amber-lt);transform:translateY(-2px);box-shadow:0 8px 24px rgba(200,134,10,0.4)}
+    .btn-outline{background:transparent;color:var(--cream);padding:13px 36px;border-radius:4px;border:1px solid rgba(250,243,224,0.35);font-family:'Noto Serif TC',serif;font-size:1rem;text-decoration:none;transition:all 0.25s;cursor:pointer}
+    .btn-outline:hover{border-color:var(--amber);color:var(--amber)}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:translateY(0)}}
+    section{padding:100px 5vw}
+    .section-label{font-size:0.75rem;letter-spacing:0.4em;color:var(--amber);text-transform:uppercase;margin-bottom:0.75rem}
+    .section-title{font-family:'Noto Serif TC',serif;font-size:clamp(1.8rem,4vw,3rem);font-weight:900;color:var(--bark);line-height:1.2;margin-bottom:1.5rem}
+    .section-title.light{color:var(--cream)}
+    .section-body{font-size:1.02rem;color:#4a3520;line-height:2;max-width:640px}
+    .section-body.light{color:rgba(250,243,224,0.8)}
+    #story{background:var(--mist)}
+    .story-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;max-width:1200px;margin:0 auto}
+    .story-visual{position:relative}
+    .story-img-wrap{width:100%;aspect-ratio:3/4;background:var(--cream-dk);border-radius:8px;overflow:hidden;box-shadow:24px 24px 0 var(--amber-dk)}
+    .story-img-wrap img,.story-img-wrap video{width:100%;height:100%;object-fit:cover}
+    .story-img-placeholder{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:var(--amber-dk);font-family:'Noto Serif TC',serif;font-size:0.9rem;opacity:0.5}
+    .story-badge{position:absolute;bottom:-20px;right:-20px;width:120px;height:120px;background:var(--amber);border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 8px 32px rgba(200,134,10,0.5)}
+    .story-badge span:first-child{font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--ink);line-height:1}
+    .story-badge span:last-child{font-family:'Noto Serif TC',serif;font-size:0.65rem;color:var(--ink);letter-spacing:0.1em}
+    #products{background:var(--ink)}
+    .products-header{text-align:center;max-width:600px;margin:0 auto 60px}
+    .products-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px;max-width:1200px;margin:0 auto}
+    .product-card{background:rgba(250,243,224,0.06);border:1px solid rgba(200,134,10,0.2);border-radius:12px;overflow:hidden;transition:all 0.3s}
+    .product-card:hover{transform:translateY(-6px);border-color:rgba(200,134,10,0.5);box-shadow:0 20px 48px rgba(0,0,0,0.4)}
+    .product-img{width:100%;aspect-ratio:4/3;background:rgba(92,61,30,0.3);overflow:hidden;display:flex;align-items:center;justify-content:center;color:rgba(200,134,10,0.4);font-size:3rem}
+    .product-img img{width:100%;height:100%;object-fit:cover}
+    .product-body{padding:24px}
+    .product-tag{font-size:0.7rem;letter-spacing:0.3em;color:var(--amber);text-transform:uppercase;margin-bottom:8px}
+    .product-name{font-family:'Noto Serif TC',serif;font-size:1.2rem;font-weight:700;color:var(--cream);margin-bottom:10px}
+    .product-desc{font-size:0.88rem;color:rgba(250,243,224,0.6);line-height:1.8;margin-bottom:16px}
+    .product-price{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--amber-lt)}
+    #gallery{background:var(--cream-dk)}
+    .gallery-header{text-align:center;margin-bottom:48px}
+    .gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;max-width:1200px;margin:0 auto}
+    .gallery-item{aspect-ratio:1;background:var(--cream);border-radius:6px;overflow:hidden;cursor:pointer;transition:transform 0.2s}
+    .gallery-item:hover{transform:scale(1.03)}
+    .gallery-item img,.gallery-item video{width:100%;height:100%;object-fit:cover}
+    .gallery-placeholder{width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:var(--amber);opacity:0.3;font-size:2rem}
+    #process{background:var(--ocean);position:relative;overflow:hidden}
+    #process::before{content:'';position:absolute;top:-100px;right:-100px;width:400px;height:400px;background:radial-gradient(circle,rgba(200,134,10,0.12) 0%,transparent 70%);border-radius:50%}
+    .process-header{text-align:center;margin-bottom:64px}
+    .process-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:40px;max-width:1100px;margin:0 auto}
+    .process-step{text-align:center}
+    .step-num{font-family:'Playfair Display',serif;font-size:3.5rem;font-weight:700;color:rgba(200,134,10,0.2);line-height:1;margin-bottom:12px}
+    .step-icon{width:64px;height:64px;background:rgba(200,134,10,0.15);border:1px solid rgba(200,134,10,0.35);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:1.6rem}
+    .step-title{font-family:'Noto Serif TC',serif;font-size:1.05rem;font-weight:700;color:var(--amber-lt);margin-bottom:10px}
+    .step-text{font-size:0.85rem;color:rgba(250,243,224,0.65);line-height:1.85}
+    #contact{background:var(--mist)}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;max-width:1200px;margin:0 auto}
+    .contact-info-block{display:flex;flex-direction:column;gap:28px}
+    .info-item{display:flex;gap:16px;align-items:flex-start}
+    .info-icon{width:44px;height:44px;flex-shrink:0;background:var(--amber);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.2rem}
+    .info-label{font-family:'Noto Serif TC',serif;font-size:0.78rem;letter-spacing:0.15em;color:var(--amber);margin-bottom:4px}
+    .info-val{font-size:0.98rem;color:var(--bark);line-height:1.7}
+    .map-wrap{border-radius:12px;overflow:hidden;height:380px;box-shadow:0 16px 48px rgba(0,0,0,0.12)}
+    .map-wrap iframe{width:100%;height:100%;border:none}
+    footer{background:var(--ink);padding:40px 5vw;text-align:center}
+    .footer-logo{font-family:'Noto Serif TC',serif;font-size:1.5rem;font-weight:900;color:var(--amber-lt);letter-spacing:0.12em;margin-bottom:12px}
+    .footer-text{font-size:0.82rem;color:rgba(250,243,224,0.4);line-height:1.8}
+    .footer-links{display:flex;gap:1.5rem;justify-content:center;margin:16px 0;list-style:none}
+    .footer-links a{color:rgba(250,243,224,0.5);text-decoration:none;font-size:0.82rem;transition:color 0.2s}
+    .footer-links a:hover{color:var(--amber)}
+    .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none}
+    .hamburger span{width:22px;height:2px;background:var(--cream-dk);border-radius:2px;transition:all 0.3s}
+    #admin-overlay{display:none;position:fixed;inset:0;z-index:9999;background:rgba(10,6,2,0.96);overflow-y:auto}
+    #admin-overlay.active{display:block}
+    #admin-login{min-height:100vh;display:flex;align-items:center;justify-content:center}
+    .login-box{background:rgba(250,243,224,0.05);border:1px solid rgba(200,134,10,0.25);border-radius:16px;padding:48px 52px;width:380px;text-align:center}
+    .login-box h2{font-family:'Noto Serif TC',serif;color:var(--amber-lt);font-size:1.6rem;margin-bottom:8px}
+    .login-box p{color:rgba(250,243,224,0.5);font-size:0.85rem;margin-bottom:32px}
+    .login-input{width:100%;background:rgba(250,243,224,0.08);border:1px solid rgba(200,134,10,0.3);color:var(--cream);padding:12px 16px;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:16px;outline:none;transition:border-color 0.2s}
+    .login-input:focus{border-color:var(--amber)}
+    .login-error{color:#e07070;font-size:0.82rem;margin-top:-8px;margin-bottom:12px}
+    #admin-panel{display:none}
+    #admin-panel.active{display:block}
+    .admin-nav{background:rgba(250,243,224,0.04);border-bottom:1px solid rgba(200,134,10,0.2);padding:0 32px;display:flex;align-items:center;height:56px;position:sticky;top:0;z-index:100}
+    .admin-nav-title{font-family:'Noto Serif TC',serif;color:var(--amber-lt);font-weight:700;margin-right:auto}
+    .admin-tab{height:100%;padding:0 20px;background:none;border:none;color:rgba(250,243,224,0.5);font-family:inherit;font-size:0.88rem;cursor:pointer;border-bottom:2px solid transparent;transition:all 0.2s}
+    .admin-tab.active-tab{color:var(--amber);border-bottom-color:var(--amber)}
+    .admin-tab:hover{color:var(--amber-lt)}
+    .admin-logout{background:none;border:1px solid rgba(250,243,224,0.2);color:rgba(250,243,224,0.5);padding:6px 16px;border-radius:4px;font-family:inherit;font-size:0.8rem;cursor:pointer;transition:all 0.2s;margin-left:12px}
+    .admin-logout:hover{border-color:var(--red);color:var(--red)}
+    .admin-content{padding:40px 48px;max-width:1100px}
+    .tab-pane{display:none}
+    .tab-pane.active-pane{display:block}
+    .admin-section-title{font-family:'Noto Serif TC',serif;font-size:1.3rem;color:var(--amber-lt);margin-bottom:28px;padding-bottom:12px;border-bottom:1px solid rgba(200,134,10,0.2)}
+    .field-group{margin-bottom:24px}
+    .field-label{display:block;font-size:0.82rem;letter-spacing:0.1em;color:rgba(250,243,224,0.6);margin-bottom:8px}
+    .field-input,.field-textarea{width:100%;background:rgba(250,243,224,0.06);border:1px solid rgba(200,134,10,0.25);color:var(--cream);padding:10px 14px;border-radius:6px;font-size:0.95rem;font-family:inherit;outline:none;transition:border-color 0.2s}
+    .field-textarea{min-height:120px;resize:vertical}
+    .field-input:focus,.field-textarea:focus{border-color:var(--amber)}
+    .admin-save-btn{background:var(--amber);color:var(--ink);border:none;border-radius:6px;padding:11px 32px;font-family:'Noto Serif TC',serif;font-weight:700;font-size:0.95rem;cursor:pointer;transition:all 0.2s}
+    .admin-save-btn:hover{background:var(--amber-lt)}
+    .admin-preview-btn{background:transparent;color:var(--amber);border:1px solid var(--amber);border-radius:6px;padding:10px 24px;font-family:'Noto Serif TC',serif;font-size:0.9rem;cursor:pointer;margin-left:12px;transition:all 0.2s}
+    .product-list{display:flex;flex-direction:column;gap:16px;margin-bottom:32px}
+    .product-list-item{background:rgba(250,243,224,0.05);border:1px solid rgba(200,134,10,0.15);border-radius:8px;padding:16px 20px;display:flex;align-items:center;gap:16px}
+    .pli-img{width:64px;height:64px;border-radius:6px;background:rgba(200,134,10,0.1);overflow:hidden;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:var(--amber);font-size:1.5rem}
+    .pli-img img{width:100%;height:100%;object-fit:cover}
+    .pli-info{flex:1}
+    .pli-name{font-family:'Noto Serif TC',serif;color:var(--cream);margin-bottom:4px}
+    .pli-price{font-size:0.82rem;color:var(--amber)}
+    .pli-actions{display:flex;gap:8px}
+    .btn-edit,.btn-del{padding:6px 14px;border-radius:4px;font-family:inherit;font-size:0.8rem;cursor:pointer;transition:all 0.2s;border:1px solid}
+    .btn-edit{background:none;border-color:rgba(200,134,10,0.4);color:var(--amber)}
+    .btn-edit:hover{background:rgba(200,134,10,0.1)}
+    .btn-del{background:none;border-color:rgba(184,50,50,0.3);color:#e07070}
+    .btn-del:hover{background:rgba(184,50,50,0.1)}
+    .upload-drop{border:2px dashed rgba(200,134,10,0.3);border-radius:12px;padding:40px;text-align:center;color:rgba(250,243,224,0.4);cursor:pointer;transition:all 0.2s;margin-bottom:24px}
+    .upload-drop:hover{border-color:var(--amber);color:var(--amber-lt);background:rgba(200,134,10,0.04)}
+    .upload-drop .upload-icon{font-size:2.5rem;margin-bottom:10px}
+    .upload-drop p{font-size:0.88rem}
+    .media-grid-admin{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
+    .media-thumb{aspect-ratio:1;background:rgba(250,243,224,0.06);border-radius:6px;overflow:hidden;position:relative}
+    .media-thumb img,.media-thumb video{width:100%;height:100%;object-fit:cover}
+    .media-thumb-del{position:absolute;top:6px;right:6px;background:rgba(184,50,50,0.85);color:white;border:none;border-radius:50%;width:24px;height:24px;cursor:pointer;font-size:0.7rem;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity 0.2s}
+    .media-thumb:hover .media-thumb-del{opacity:1}
+    .toast{position:fixed;bottom:24px;right:24px;z-index:99999;background:var(--amber);color:var(--ink);padding:12px 24px;border-radius:8px;font-weight:700;font-size:0.9rem;transform:translateY(80px);opacity:0;transition:all 0.3s;pointer-events:none}
+    .toast.show{transform:translateY(0);opacity:1}
+    @media(max-width:900px){.story-grid{grid-template-columns:1fr;gap:48px}.contact-grid{grid-template-columns:1fr;gap:40px}.nav-links{display:none}.hamburger{display:flex}}
+    @media(max-width:600px){section{padding:72px 6vw}.admin-content{padding:24px 20px}.admin-nav{padding:0 16px}.login-box{width:92%;padding:36px 28px}}
+  </style>
+</head>
+<body>
+<nav>
+  <a class="nav-logo" href="#hero">金山魚露小棧</a>
+  <ul class="nav-links">
+    <li><a href="#story">關於我們</a></li>
+    <li><a href="#products">產品介紹</a></li>
+    <li><a href="#gallery">相片集</a></li>
+    <li><a href="#process">製程工藝</a></li>
+    <li><a href="#contact">聯絡我們</a></li>
+  </ul>
+  <button class="nav-admin-btn" onclick="openAdmin()">⚙ 後台管理</button>
+  <button class="hamburger" onclick="toggleMobileMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div id="mobile-menu" style="display:none;position:fixed;top:64px;left:0;right:0;z-index:800;background:rgba(26,16,8,0.97);padding:20px 5vw;border-bottom:1px solid rgba(200,134,10,0.2);">
+  <ul style="list-style:none;display:flex;flex-direction:column;gap:18px;">
+    <li><a href="#story" onclick="closeMobileMenu()" style="color:var(--cream-dk);text-decoration:none;font-size:1rem;">關於我們</a></li>
+    <li><a href="#products" onclick="closeMobileMenu()" style="color:var(--cream-dk);text-decoration:none;font-size:1rem;">產品介紹</a></li>
+    <li><a href="#gallery" onclick="closeMobileMenu()" style="color:var(--cream-dk);text-decoration:none;font-size:1rem;">相片集</a></li>
+    <li><a href="#process" onclick="closeMobileMenu()" style="color:var(--cream-dk);text-decoration:none;font-size:1rem;">製程工藝</a></li>
+    <li><a href="#contact" onclick="closeMobileMenu()" style="color:var(--cream-dk);text-decoration:none;font-size:1rem;">聯絡我們</a></li>
+  </ul>
+</div>
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">新北 · 金山 · 漁港直送</p>
+    <h1 class="hero-title">金山<span>魚露</span>小棧</h1>
+    <p class="hero-subtitle">Jinshan Fish Sauce — The Ocean's Essence</p>
+    <div class="hero-divider"></div>
+    <p class="hero-tagline" id="hero-tagline">百年傳統工藝，精選金山漁港新鮮魚貨，純天然釀造。<br>一滴魚露，凝聚大海的深邃與山海交融的風土滋味。</p>
+    <div class="hero-btns">
+      <a href="#products" class="btn-primary">探索產品</a>
+      <a href="#story" class="btn-outline">品牌故事</a>
+    </div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="height:80px;">
+    <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#FAF3E0"/>
+  </svg>
+</section>
+<section id="story">
+  <div class="story-grid">
+    <div class="story-visual">
+      <div class="story-img-wrap" id="story-media-wrap">
+        <div class="story-img-placeholder"><span style="font-size:3rem">🐟</span><span>品牌故事圖片</span></div>
+      </div>
+      <div class="story-badge">
+        <span id="badge-year">百年</span>
+        <span>傳承工藝</span>
+      </div>
+    </div>
+    <div>
+      <p class="section-label">品牌故事</p>
+      <h2 class="section-title" id="story-title">金山海岸邊的百年釀造秘密</h2>
+      <p class="section-body" id="story-content">金山魚露小棧座落於新北市金山區，依山傍海、漁港旁。自阿公那一代開始，便堅持以每日清晨漁船剛卸港的新鮮小魚，搭配天然海鹽，以傳統大甕慢熟釀造。不添加任何人工成分，只靠時間與海風的呵護，釀出這瓶琥珀色的海味精華。<br><br>每一滴魚露，都承載著金山海岸的陽光、海浪與世代漁民的心血。</p>
+      <div style="margin-top:2.5rem;display:flex;gap:48px;">
+        <div>
+          <div style="font-family:'Playfair Display',serif;font-size:2.8rem;color:var(--amber);line-height:1;" id="stat1">100+</div>
+          <div style="font-size:0.82rem;color:#7a5a38;letter-spacing:0.15em;margin-top:4px;" id="stat1-label">年傳承工藝</div>
+        </div>
+        <div>
+          <div style="font-family:'Playfair Display',serif;font-size:2.8rem;color:var(--amber);line-height:1;" id="stat2">純天然</div>
+          <div style="font-size:0.82rem;color:#7a5a38;letter-spacing:0.15em;margin-top:4px;" id="stat2-label">無添加配方</div>
+        </div>
+        <div>
+          <div style="font-family:'Playfair Display',serif;font-size:2.8rem;color:var(--amber);line-height:1;" id="stat3">金山</div>
+          <div style="font-size:0.82rem;color:#7a5a38;letter-spacing:0.15em;margin-top:4px;" id="stat3-label">漁港直送魚貨</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="products">
+  <div class="products-header">
+    <p class="section-label">產品系列</p>
+    <h2 class="section-title light">嚴選釀造系列</h2>
+    <p class="section-body light" style="margin:0 auto;text-align:center;">每款魚露都有其獨特的陳釀時間與魚種搭配，滿足不同料理需求。</p>
+  </div>
+  <div class="products-grid" id="products-grid"></div>
+</section>
+<section id="gallery">
+  <div class="gallery-header">
+    <p class="section-label">相片影音集</p>
+    <h2 class="section-title">漁露風土紀錄</h2>
+  </div>
+  <div class="gallery-grid" id="gallery-grid"></div>
+</section>
+<section id="process">
+  <div class="process-header">
+    <p class="section-label" style="color:var(--amber-lt);">傳統工藝</p>
+    <h2 class="section-title light">百年釀造四步驟</h2>
+    <p class="section-body light" style="margin:0 auto;text-align:center;">嚴格遵循古法，每個步驟都是對土地與海洋最深的致敬。</p>
+  </div>
+  <div class="process-steps" id="process-steps"></div>
+</section>
+<section id="contact">
+  <div class="contact-grid">
+    <div>
+      <p class="section-label">聯絡我們</p>
+      <h2 class="section-title">歡迎來訪金山小棧</h2>
+      <div class="contact-info-block" id="contact-info-block"></div>
+    </div>
+    <div>
+      <div class="map-wrap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3637.5!2d121.6385!3d25.2256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aca5c4cc43bf%3A0x5d1cc1e0a65c3a7c!2z5paw5YyX5biC6YeN5bGx5Y2A!5e0!3m2!1szh-TW!2stw!4v1" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="金山魚露小棧地圖位置" id="map-iframe"></iframe>
+      </div>
+      <div style="margin-top:20px;display:flex;gap:12px;flex-wrap:wrap;">
+        <a id="google-maps-link" href="https://maps.google.com/?q=新北市金山區" target="_blank" rel="noopener" style="background:var(--amber);color:var(--ink);padding:10px 20px;border-radius:6px;text-decoration:none;font-family:'Noto Serif TC',serif;font-size:0.88rem;font-weight:700;">📍 Google Maps 導航</a>
+        <a id="fb-link" href="#" target="_blank" rel="noopener" style="background:transparent;color:var(--bark);padding:10px 20px;border-radius:6px;text-decoration:none;font-size:0.88rem;border:1px solid var(--amber-dk);">Facebook 粉絲專頁</a>
+        <a id="line-link" href="#" target="_blank" rel="noopener" style="background:transparent;color:var(--bark);padding:10px 20px;border-radius:6px;text-decoration:none;font-size:0.88rem;border:1px solid var(--amber-dk);">LINE 官方帳號</a>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="footer-logo">金山魚露小棧</div>
+  <ul class="footer-links">
+    <li><a href="#story">品牌故事</a></li>
+    <li><a href="#products">產品</a></li>
+    <li><a href="#gallery">相片集</a></li>
+    <li><a href="#contact">聯絡</a></li>
+  </ul>
+  <p class="footer-text" id="footer-text">© 2025 金山魚露小棧 · 新北市金山區 · 版權所有<br>純天然 · 無添加 · 百年傳承</p>
+</footer>
+<div class="toast" id="toast"></div>
+<div id="admin-overlay">
+  <div id="admin-login">
+    <div class="login-box">
+      <div style="font-size:2.5rem;margin-bottom:12px;">🐟</div>
+      <h2>後台管理入口</h2>
+      <p>請輸入管理員密碼</p>
+      <input type="password" class="login-input" id="login-pw" placeholder="密碼" onkeydown="if(event.key==='Enter')doLogin()" />
+      <div class="login-error" id="login-error" style="display:none;">密碼錯誤，請再試一次</div>
+      <button class="btn-primary" style="width:100%;margin-top:4px;" onclick="doLogin()">登入</button>
+      <button class="btn-outline" style="width:100%;margin-top:12px;" onclick="closeAdmin()">返回網站</button>
+      <p style="margin-top:20px;font-size:0.75rem;color:rgba(250,243,224,0.25);">預設密碼：jinshan2025</p>
+    </div>
+  </div>
+  <div id="admin-panel">
+    <div class="admin-nav">
+      <span class="admin-nav-title">⚙ 金山魚露小棧 · 後台管理</span>
+      <button class="admin-tab active-tab" data-tab="general" onclick="switchTab('general')">基本設定</button>
+      <button class="admin-tab" data-tab="story" onclick="switchTab('story')">品牌故事</button>
+      <button class="admin-tab" data-tab="products" onclick="switchTab('products')">產品管理</button>
+      <button class="admin-tab" data-tab="gallery" onclick="switchTab('gallery')">相片/影片</button>
+      <button class="admin-tab" data-tab="contact" onclick="switchTab('contact')">聯絡資訊</button>
+      <button class="admin-logout" onclick="doLogout()">登出</button>
+    </div>
+    <div class="admin-content">
+      <div class="tab-pane active-pane" id="tab-general">
+        <h3 class="admin-section-title">基本設定</h3>
+        <div class="field-group"><label class="field-label">網站標題</label><input class="field-input" id="g-title" placeholder="金山魚露小棧 — 新北金山傳統手工魚露" /></div>
+        <div class="field-group"><label class="field-label">網站描述</label><textarea class="field-textarea" id="g-desc" style="min-height:80px;"></textarea></div>
+        <div class="field-group"><label class="field-label">關鍵字（逗號分隔）</label><input class="field-input" id="g-keywords" /></div>
+        <div class="field-group"><label class="field-label">Hero 主標語</label><textarea class="field-textarea" id="g-tagline" style="min-height:80px;"></textarea></div>
+        <div class="field-group"><label class="field-label">Facebook 連結</label><input class="field-input" id="g-fb" /></div>
+        <div class="field-group"><label class="field-label">LINE 連結</label><input class="field-input" id="g-line" /></div>
+        <div class="field-group"><label class="field-label">Google Maps 嵌入網址</label><textarea class="field-textarea" id="g-map" style="min-height:70px;"></textarea></div>
+        <div class="field-group"><label class="field-label">Google Maps 導航連結</label><input class="field-input" id="g-maplink" /></div>
+        <button class="admin-save-btn" onclick="saveGeneral()">儲存設定</button>
+      </div>
+      <div class="tab-pane" id="tab-story">
+        <h3 class="admin-section-title">品牌故事</h3>
+        <div class="field-group"><label class="field-label">故事標題</label><input class="field-input" id="s-title" /></div>
+        <div class="field-group"><label class="field-label">故事內容</label><textarea class="field-textarea" id="s-content" style="min-height:200px;"></textarea></div>
+        <div class="field-group"><label class="field-label">徽章文字</label><input class="field-input" id="s-badge" style="max-width:200px;" /></div>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:24px;">
+          <div><label class="field-label">數據1</label><input class="field-input" id="s-stat1" /><input class="field-input" id="s-stat1-label" style="margin-top:8px;" /></div>
+          <div><label class="field-label">數據2</label><input class="field-input" id="s-stat2" /><input class="field-input" id="s-stat2-label" style="margin-top:8px;" /></div>
+          <div><label class="field-label">數據3</label><input class="field-input" id="s-stat3" /><input class="field-input" id="s-stat3-label" style="margin-top:8px;" /></div>
+        </div>
+        <div class="field-group"><label class="field-label">主圖網址</label><input class="field-input" id="s-img" /><input type="file" id="s-img-file" accept="image/*,video/*" style="color:rgba(250,243,224,0.6);margin-top:6px;font-size:0.82rem;" onchange="handleStoryMedia(event)" /></div>
+        <button class="admin-save-btn" onclick="saveStory()">儲存故事</button>
+      </div>
+      <div class="tab-pane" id="tab-products">
+        <h3 class="admin-section-title">產品管理</h3>
+        <div class="product-list" id="admin-product-list"></div>
+        <h4 style="color:var(--amber-lt);font-family:'Noto Serif TC',serif;margin-bottom:20px;font-size:1rem;">＋ 新增 / 編輯產品</h4>
+        <input type="hidden" id="edit-product-id" />
+        <div class="field-group"><label class="field-label">產品名稱</label><input class="field-input" id="p-name" /></div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+          <div class="field-group"><label class="field-label">分類標籤</label><input class="field-input" id="p-tag" /></div>
+          <div class="field-group"><label class="field-label">售價</label><input class="field-input" id="p-price" /></div>
+        </div>
+        <div class="field-group"><label class="field-label">產品描述</label><textarea class="field-textarea" id="p-desc"></textarea></div>
+        <div class="field-group"><label class="field-label">產品圖片網址</label><input class="field-input" id="p-img" /><input type="file" id="p-img-file" accept="image/*" style="color:rgba(250,243,224,0.6);margin-top:8px;font-size:0.82rem;" onchange="handleProductImg(event)" /></div>
+        <div style="display:flex;gap:12px;margin-top:8px;">
+          <button class="admin-save-btn" onclick="saveProduct()">儲存產品</button>
+          <button class="admin-preview-btn" onclick="clearProductForm()">清除表單</button>
+        </div>
+      </div>
+      <div class="tab-pane" id="tab-gallery">
+        <h3 class="admin-section-title">相片 / 影片管理</h3>
+        <div class="upload-drop" onclick="document.getElementById('gallery-upload').click()">
+          <div class="upload-icon">📸</div>
+          <p>點擊上傳圖片或影片</p>
+          <p style="font-size:0.75rem;margin-top:4px;">支援 JPG、PNG、GIF、MP4、MOV</p>
+          <input type="file" id="gallery-upload" accept="image/*,video/*" multiple style="display:none" onchange="handleGalleryUpload(event)" />
+        </div>
+        <div style="margin-bottom:16px;"><label class="field-label">或貼上媒體連結（每行一個）</label><textarea class="field-textarea" id="gallery-urls" style="min-height:80px;"></textarea><button class="admin-save-btn" style="margin-top:8px;" onclick="addGalleryUrls()">加入連結</button></div>
+        <div class="media-grid-admin" id="admin-gallery-grid"></div>
+      </div>
+      <div class="tab-pane" id="tab-contact">
+        <h3 class="admin-section-title">聯絡資訊</h3>
+        <div class="field-group"><label class="field-label">📍 地址</label><input class="field-input" id="c-address" /></div>
+        <div class="field-group"><label class="field-label">📞 電話</label><input class="field-input" id="c-phone" /></div>
+        <div class="field-group"><label class="field-label">🕐 營業時間</label><input class="field-input" id="c-hours" /></div>
+        <div class="field-group"><label class="field-label">✉ Email</label><input class="field-input" id="c-email" /></div>
+        <div class="field-group"><label class="field-label">附加資訊</label><textarea class="field-textarea" id="c-note"></textarea></div>
+        <div class="field-group"><label class="field-label">頁腳版權文字</label><textarea class="field-textarea" id="c-footer" style="min-height:70px;"></textarea></div>
+        <button class="admin-save-btn" onclick="saveContact()">儲存聯絡資訊</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+const STORE_KEY='jinshan_cms';
+function loadData(){try{const r=localStorage.getItem(STORE_KEY);return r?JSON.parse(r):null}catch(e){return null}}
+function saveData(d){localStorage.setItem(STORE_KEY,JSON.stringify(d))}
+const DEFAULT={general:{seoTitle:'金山魚露小棧 — 新北金山傳統手工魚露',seoDesc:'新北金山魚露小棧，堅守百年傳統工藝，以新鮮漁港直送魚貨手工釀造。金山在地特產，純天然無添加魚露。',seoKeywords:'金山魚露,新北魚露,金山特產,手工魚露',tagline:'百年傳統工藝，精選金山漁港新鮮魚貨，純天然釀造。\n一滴魚露，凝聚大海的深邃與山海交融的風土滋味。',fb:'#',line:'#',mapEmbed:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3637.5!2d121.6385!3d25.2256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aca5c4cc43bf%3A0x5d1cc1e0a65c3a7c!2z5paw5YyX5biC6YeN5bGx5Y2A!5e0!3m2!1szh-TW!2stw!4v1',mapLink:'https://maps.google.com/?q=新北市金山區'},story:{title:'金山海岸邊的百年釀造秘密',content:'金山魚露小棧座落於新北市金山區，依山傍海、漁港旁。自阿公那一代開始，便堅持以每日清晨漁船剛卸港的新鮮小魚，搭配天然海鹽，以傳統大甕慢熟釀造。不添加任何人工成分，只靠時間與海風的呵護，釀出這瓶琥珀色的海味精華。\n\n每一滴魚露，都承載著金山海岸的陽光、海浪與世代漁民的心血。',badge:'百年',stat1:'100+',stat1Label:'年傳承工藝',stat2:'純天然',stat2Label:'無添加配方',stat3:'金山',stat3Label:'漁港直送魚貨',img:''},products:[{id:1,name:'陳釀特級魚露',tag:'招牌',price:'NT$ 380',desc:'以新鮮鯷魚搭配天然海鹽，陳釀24個月，滋味鮮醇回甘，是家常料理的最佳提鮮夥伴。',img:''},{id:2,name:'黃金珍釀魚露',tag:'限量',price:'NT$ 580',desc:'精選金山漁港當季最鮮美魚貨，採低溫慢熟工法，保留更多鮮甜胺基酸，層次豐富迷人。',img:''},{id:3,name:'海風輕釀魚露',tag:'入門款',price:'NT$ 260',desc:'口感溫醇不搶戲，適合涼拌、沾食及各式海鮮料理，是料理初心者的入門首選。',img:''}],gallery:[],contact:{address:'新北市金山區金山老街XX號',phone:'02-2498-XXXX',hours:'每日 09:00–18:00',email:'info@jinshan-fishsauce.com',note:'門口提供停車位，台灣好行金山線可達。',footer:'© 2025 金山魚露小棧 · 新北市金山區 · 版權所有\n純天然 · 無添加 · 百年傳承'}};
+let CMS=loadData()||JSON.parse(JSON.stringify(DEFAULT));
+const PROCESS_STEPS=[{num:'01',icon:'🐟',title:'鮮魚精選',text:'每日清晨赴金山漁港，選購最新鮮的小型魚貨，嚴控品質。'},{num:'02',icon:'🧂',title:'天然海鹽醃漬',text:'按古法比例拌入純天然海鹽，均勻混合後入甕靜置熟成。'},{num:'03',icon:'⏳',title:'長期發酵陳釀',text:'在傳統大陶甕中靜置12–24個月，讓自然酵素慢慢作用。'},{num:'04',icon:'🍶',title:'過濾裝瓶出貨',text:'多重過濾取得琥珀色魚露，人工檢驗後封瓶，送達您手中。'}];
+function renderAll(){renderGeneral();renderStory();renderProducts();renderGallery();renderContact();renderProcess()}
+function renderGeneral(){const g=CMS.general;document.title=g.seoTitle||DEFAULT.general.seoTitle;document.querySelector('meta[name="description"]').setAttribute('content',g.seoDesc||DEFAULT.general.seoDesc);document.querySelector('meta[name="keywords"]').setAttribute('content',g.seoKeywords||DEFAULT.general.seoKeywords);const tl=document.getElementById('hero-tagline');if(tl)tl.innerHTML=(g.tagline||DEFAULT.general.tagline).replace(/\n/g,'<br>');const fb=document.getElementById('fb-link');if(fb)fb.href=g.fb||'#';const ln=document.getElementById('line-link');if(ln)ln.href=g.line||'#';const mi=document.getElementById('map-iframe');if(mi&&g.mapEmbed)mi.src=g.mapEmbed;const ml=document.getElementById('google-maps-link');if(ml)ml.href=g.mapLink||'https://maps.google.com/?q=新北市金山區'}
+function renderStory(){const s=CMS.story;const t=document.getElementById('story-title');if(t)t.textContent=s.title||DEFAULT.story.title;const c=document.getElementById('story-content');if(c)c.innerHTML=(s.content||DEFAULT.story.content).replace(/\n/g,'<br>');const b=document.getElementById('badge-year');if(b)b.textContent=s.badge||'百年';document.getElementById('stat1').textContent=s.stat1||'100+';document.getElementById('stat1-label').textContent=s.stat1Label||'年傳承工藝';document.getElementById('stat2').textContent=s.stat2||'純天然';document.getElementById('stat2-label').textContent=s.stat2Label||'無添加配方';document.getElementById('stat3').textContent=s.stat3||'金山';document.getElementById('stat3-label').textContent=s.stat3Label||'漁港直送魚貨';const w=document.getElementById('story-media-wrap');if(w){if(s.img){const iv=s.img.startsWith('data:video')||/\.(mp4|mov|webm)$/i.test(s.img);w.innerHTML=iv?`<video src="${s.img}" controls autoplay muted loop playsinline></video>`:`<img src="${s.img}" alt="品牌故事" />`}else{w.innerHTML='<div class="story-img-placeholder"><span style="font-size:3rem">🐟</span><span>品牌故事圖片</span></div>'}}}
+function renderProducts(){const g=document.getElementById('products-grid');if(!g)return;const p=CMS.products||DEFAULT.products;g.innerHTML=p.map(p=>`<div class="product-card"><div class="product-img">${p.img?`<img src="${p.img}" alt="${p.name}" />`:'<span>🍶</span>'}</div><div class="product-body"><p class="product-tag">${p.tag||''}</p><h3 class="product-name">${p.name}</h3><p class="product-desc">${p.desc}</p><span class="product-price">${p.price}</span></div></div>`).join('')}
+function renderGallery(){const g=document.getElementById('gallery-grid');if(!g)return;const items=CMS.gallery||[];if(items.length===0){g.innerHTML=Array(6).fill(0).map(()=>'<div class="gallery-item"><div class="gallery-placeholder">🌊</div></div>').join('');return}g.innerHTML=items.map((item,i)=>{const iv=item.type==='video'||/\.(mp4|mov|webm)$/i.test(item.src);return`<div class="gallery-item">${iv?`<video src="${item.src}" muted loop playsinline preload="metadata"></video>`:`<img src="${item.src}" alt="媒體${i+1}" loading="lazy" />`}</div>`}).join('')}
+function renderProcess(){const c=document.getElementById('process-steps');if(!c)return;c.innerHTML=PROCESS_STEPS.map(s=>`<div class="process-step"><div class="step-num">${s.num}</div><div class="step-icon">${s.icon}</div><h4 class="step-title">${s.title}</h4><p class="step-text">${s.text}</p></div>`).join('')}
+function renderContact(){const c=CMS.contact;const b=document.getElementById('contact-info-block');if(!b)return;const items=[{icon:'📍',label:'地址',val:c.address},{icon:'📞',label:'電話',val:c.phone},{icon:'🕐',label:'營業時間',val:c.hours},{icon:'✉',label:'Email',val:c.email},{icon:'🚗',label:'交通資訊',val:c.note}].filter(i=>i.val);b.innerHTML=items.map(i=>`<div class="info-item"><div class="info-icon">${i.icon}</div><div><div class="info-label">${i.label}</div><div class="info-val">${(i.val||'').replace(/\n/g,'<br>')}</div></div></div>`).join('');const f=document.getElementById('footer-text');if(f&&c.footer)f.innerHTML=c.footer.replace(/\n/g,'<br>')}
+let loggedIn=false;const ADMIN_PW='jinshan2025';
+function openAdmin(){document.getElementById('admin-overlay').classList.add('active');if(loggedIn){document.getElementById('admin-login').style.display='none';document.getElementById('admin-panel').classList.add('active');populateAdminForms()}}
+function closeAdmin(){document.getElementById('admin-overlay').classList.remove('active')}
+function doLogin(){const pw=document.getElementById('login-pw').value;if(pw===ADMIN_PW){loggedIn=true;document.getElementById('admin-login').style.display='none';document.getElementById('admin-panel').classList.add('active');populateAdminForms();document.getElementById('login-error').style.display='none';document.getElementById('login-pw').value=''}else{document.getElementById('login-error').style.display='block'}}
+function doLogout(){loggedIn=false;document.getElementById('admin-panel').classList.remove('active');document.getElementById('admin-login').style.display='flex';closeAdmin()}
+function switchTab(n){document.querySelectorAll('.admin-tab').forEach(t=>t.classList.toggle('active-tab',t.dataset.tab===n));document.querySelectorAll('.tab-pane').forEach(p=>p.classList.toggle('active-pane',p.id==='tab-'+n))}
+function populateAdminForms(){const g=CMS.general;document.getElementById('g-title').value=g.seoTitle||'';document.getElementById('g-desc').value=g.seoDesc||'';document.getElementById('g-keywords').value=g.seoKeywords||'';document.getElementById('g-tagline').value=g.tagline||'';document.getElementById('g-fb').value=g.fb||'';document.getElementById('g-line').value=g.line||'';document.getElementById('g-map').value=g.mapEmbed||'';document.getElementById('g-maplink').value=g.mapLink||'';const s=CMS.story;document.getElementById('s-title').value=s.title||'';document.getElementById('s-content').value=s.content||'';document.getElementById('s-badge').value=s.badge||'';document.getElementById('s-stat1').value=s.stat1||'';document.getElementById('s-stat1-label').value=s.stat1Label||'';document.getElementById('s-stat2').value=s.stat2||'';document.getElementById('s-stat2-label').value=s.stat2Label||'';document.getElementById('s-stat3').value=s.stat3||'';document.getElementById('s-stat3-label').value=s.stat3Label||'';document.getElementById('s-img').value=s.img||'';const c=CMS.contact;document.getElementById('c-address').value=c.address||'';document.getElementById('c-phone').value=c.phone||'';document.getElementById('c-hours').value=c.hours||'';document.getElementById('c-email').value=c.email||'';document.getElementById('c-note').value=c.note||'';document.getElementById('c-footer').value=c.footer||'';renderAdminProducts();renderAdminGallery()}
+function saveGeneral(){CMS.general={seoTitle:document.getElementById('g-title').value,seoDesc:document.getElementById('g-desc').value,seoKeywords:document.getElementById('g-keywords').value,tagline:document.getElementById('g-tagline').value,fb:document.getElementById('g-fb').value,line:document.getElementById('g-line').value,mapEmbed:document.getElementById('g-map').value,mapLink:document.getElementById('g-maplink').value};saveData(CMS);renderGeneral();showToast('✅ 基本設定已儲存')}
+function saveStory(){CMS.story={title:document.getElementById('s-title').value,content:document.getElementById('s-content').value,badge:document.getElementById('s-badge').value,stat1:document.getElementById('s-stat1').value,stat1Label:document.getElementById('s-stat1-label').value,stat2:document.getElementById('s-stat2').value,stat2Label:document.getElementById('s-stat2-label').value,stat3:document.getElementById('s-stat3').value,stat3Label:document.getElementById('s-stat3-label').value,img:document.getElementById('s-img').value};saveData(CMS);renderStory();showToast('✅ 品牌故事已儲存')}
+function handleStoryMedia(e){const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=ev=>{document.getElementById('s-img').value=ev.target.result};r.readAsDataURL(f)}
+function renderAdminProducts(){const l=document.getElementById('admin-product-list');const p=CMS.products||[];l.innerHTML=p.map(p=>`<div class="product-list-item"><div class="pli-img">${p.img?`<img src="${p.img}" alt="${p.name}">`:'🍶'}</div><div class="pli-info"><div class="pli-name">${p.name}</div><div class="pli-price">${p.price} · ${p.tag}</div></div><div class="pli-actions"><button class="btn-edit" onclick="editProduct(${p.id})">編輯</button><button class="btn-del" onclick="deleteProduct(${p.id})">刪除</button></div></div>`).join('')}
+function editProduct(id){const p=CMS.products.find(x=>x.id===id);if(!p)return;document.getElementById('edit-product-id').value=id;document.getElementById('p-name').value=p.name;document.getElementById('p-tag').value=p.tag;document.getElementById('p-price').value=p.price;document.getElementById('p-desc').value=p.desc;document.getElementById('p-img').value=p.img||''}
+function deleteProduct(id){if(!confirm('確定刪除此產品？'))return;CMS.products=CMS.products.filter(x=>x.id!==id);saveData(CMS);renderAdminProducts();renderProducts();showToast('🗑 產品已刪除')}
+function saveProduct(){const name=document.getElementById('p-name').value.trim();if(!name){showToast('⚠ 請填入產品名稱');return}const eid=parseInt(document.getElementById('edit-product-id').value);const product={id:eid||Date.now(),name,tag:document.getElementById('p-tag').value,price:document.getElementById('p-price').value,desc:document.getElementById('p-desc').value,img:document.getElementById('p-img').value};if(eid){const idx=CMS.products.findIndex(x=>x.id===eid);if(idx>=0)CMS.products[idx]=product}else{CMS.products.push(product)}saveData(CMS);renderAdminProducts();renderProducts();clearProductForm();showToast('✅ 產品已儲存')}
+function clearProductForm(){document.getElementById('edit-product-id').value='';['p-name','p-tag','p-price','p-desc','p-img'].forEach(id=>document.getElementById(id).value='')}
+function handleProductImg(e){const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=ev=>{document.getElementById('p-img').value=ev.target.result};r.readAsDataURL(f)}
+function handleGalleryUpload(e){const files=Array.from(e.target.files);files.forEach(file=>{const r=new FileReader();r.onload=ev=>{CMS.gallery.push({src:ev.target.result,type:file.type.startsWith('video')?'video':'image'});saveData(CMS);renderGallery();renderAdminGallery()};r.readAsDataURL(file)});showToast(`✅ 已上傳 ${files.length} 個媒體`)}
+function addGalleryUrls(){const raw=document.getElementById('gallery-urls').value.trim();if(!raw)return;raw.split('\n').forEach(url=>{const u=url.trim();if(!u)return;const iv=/\.(mp4|mov|webm)$/i.test(u);CMS.gallery.push({src:u,type:iv?'video':'image'})});saveData(CMS);renderGallery();renderAdminGallery();document.getElementById('gallery-urls').value='';showToast('✅ 媒體連結已加入')}
+function deleteGalleryItem(idx){CMS.gallery.splice(idx,1);saveData(CMS);renderGallery();renderAdminGallery()}
+function renderAdminGallery(){const g=document.getElementById('admin-gallery-grid');if(!g)return;g.innerHTML=CMS.gallery.map((item,i)=>`<div class="media-thumb">${item.type==='video'?`<video src="${item.src}" muted preload="metadata"></video>`:`<img src="${item.src}" alt="媒體${i}" />`}<button class="media-thumb-del" onclick="deleteGalleryItem(${i})">✕</button></div>`).join('')}
+function saveContact(){CMS.contact={address:document.getElementById('c-address').value,phone:document.getElementById('c-phone').value,hours:document.getElementById('c-hours').value,email:document.getElementById('c-email').value,note:document.getElementById('c-note').value,footer:document.getElementById('c-footer').value};saveData(CMS);renderContact();showToast('✅ 聯絡資訊已儲存')}
+function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2800)}
+function toggleMobileMenu(){const m=document.getElementById('mobile-menu');m.style.display=m.style.display==='none'?'block':'none'}
+function closeMobileMenu(){document.getElementById('mobile-menu').style.display='none'}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeAdmin()});
+renderAll();
+</script>
+</body>
+</html>
